@@ -38,6 +38,7 @@ class Chatroom{
     }
     updateName(usermane){
         this.username = usermane;
+        localStorage.setItem('username', username);
     }
     updateRoom(room){
         this.room = room;
